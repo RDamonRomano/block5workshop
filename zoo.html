@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="zoo.css">
 </head>
 <body>
-    <!-- Wrapped the ordered lists of animals inside ann unordered list for easier readability by screen readers. Wrapped the H1 in a Nav so the screen reader reads the nav more slowly.--> 
+    <!--Wrapped the H1 in a Nav so the screen reader reads the nav more slowly.--> 
     <nav><h1>Zoo Animals</h1></nav>
-        <ul><p>Welcome to our interactive children's zoo! Feed the hungry carnivores! Run with the stampeding herbivores! Whee!</p>
+        <p class="opening">Welcome to our interactive children's zoo! Feed the hungry carnivores! Run with the stampeding herbivores! Whee!</p>
+        <!--Wrapped the ordered lists of animals inside ann unordered list for easier readability by screen readers. -->
+        <ul>
             <h3>Bears</h3>
                 <ol>
                     <li>
@@ -19,42 +21,45 @@
                     </li>
                     <li>
                         <img src="./assets/images/bears/polarBear.jfif" style="height: 300px;" alt="Image of an adult polar bear lying on its back with its feet in the air.">
-                        <p>Mona is our 6-year-old female Polar Bear. At around 1,300 pounds, Polar Bears are the largest carnivores on Earth! </p>
+                        <article>Mona is our 6-year-old female Polar Bear. At around 1,300 pounds, Polar Bears are the largest carnivores on Earth!</article>
+                        <a href="https://en.wikipedia.org/wiki/Polar_bear">Read more about Polar Bears</a>
                     </li>
                 </ol>
                 
             <h3>Giraffes</h3>
-                <ol>
+                <!--There's just one giraffe species. Thus just one link.-->
+                <ol><a href="https://en.wikipedia.org/wiki/Giraffe">There is only one species of giraffe! Learn more!</a> 
                     <li><img src="./assets/images/giraffes/giraffe.jpg" style="height: 300px;" alt="image of a wild giraffe using its long neck to eat leaves from the top of a tree.">
                     <p>Frankie is one of our two female giraffes. The word Giraffe is French for "super weird". </p>
-                    </li>
+                                       </li>
                     <li><img src="./assets/images/giraffes/giraffe2.jfif" style="height: 300px;" alt="Cocoanut is our female giraffe. ">
                     <p>Coconut is our other giraffe. Did you know that giraffes are just really old horses? And you can tell the age of a giraffe by how long its neck is? Coconut is about 380 years old!</p>
                     </li>
                 </ol>
             <h3>Lions</h3>
-                <ol>
+                <!--Like giraffes, there's one species of African lion. So again, just one link.-->
+                <ol><a href="https://en.wikipedia.org/wiki/Lion">Learn all about Lions or else they will eat you!</a>
                     <li>
                         <img src="./assets/images/lions/lioness.jfif" style="height: 300px;" alt="An image of a male lion roaring on the African savannah.">
                         <p>Mella is our adult female lion. Females do all the hunting in a pride of lions.</p>
                     </li>
                     <li>
                         <img src="./assets/images/lions/lion.jfif" style="height: 300px;" alt="">
-                        <p>Karl is our adult male lion. He is a proven man-eater! </p>Karl</li>
+                        <p>Karl is our adult male lion. He is a proven man-eater! He also goes through an incredible amount of conditioner.</p>Karl</li>
                 </ol>
             <h3>Monkeys</h3>
                 <ol>
                     <li>
                         <img src="./assets/images/monkeys/monkey1.jpg" style="height: 300px;" alt="An image of a monkey that seems to be smiling.">
-                        <p>Cookie is our Mohawk Monkey.</p>
+                        <p>Cookie is our Mohawk Monkey.</p><a href="https://en.wikipedia.org/wiki/The_Monkees">Learn more about The Monkeys!</a>
                     </li>
                     <li>
                         <img src="./assets/images/monkeys/whiteMonkay.jfif" style="height: 300px;" alt="">
-                        <p>Earl is our Beige Monkey.</p>
-                    </li>
+                        <p>Earl is our Capuchin Monkey.</p>
+                    </li><a href="https://en.wikipedia.org/wiki/Capuchin_monkey">Read all about Capuchin Monkeys.</a>
                     <li>
                         <img src="./assets/images/monkeys/kissingMonkey.jfif" style="height: 300px;" alt="">
-                        <p>Banana Pudding is our Reese's Monkey. He stuck his face into a running vacuum cleaner.</p>
+                        <p>Banana Pudding is our Snub-Nosed Monkey. He stuck his face into a running vacuum cleaner.</p><a href="https://en.wikipedia.org/wiki/Snub-nosed_monkey">Learn more about Snub-Nosed Monkeys.</a>
                     </li>
                 </ol>
             <h3>Alligators</h3>
@@ -62,17 +67,20 @@
                     <li>
                         <img src="./assets/images/alligators/alligator.jfif" style="height: 300px;" alt="An image of an alligator with its mouth open.">
                         <p>Wren is our first alligator. She likes long walks on the beach.</p>
+                        <a href="https://factanimal.com/alligator/">21 Facts about Alligators</a>
                     </li>
                     <li>
                         <img src="./assets/images/alligators/alligator2.jfif" style="height: 300px;" alt="">
-                        <p>Aspen is an American Alligator. He likes surprizing octagenarians on golf courses.</p>
+                        <p>Aspen is an American Alligator. He likes surprizing octagenarians on golf courses.</p><a href="https://www.britannica.com/story/whats-the-difference-between-alligators-and-crocodiles">Alligators are Not Crocodiles!</a>
+                
                     </li>
                     <li>
                         <img 
                             src="./assets/images/alligators/alligator3.jfif" 
                             style="height: 300px;" 
-                            alt="">
-                            Mika
+                            alt="Image of an alligator leaping out of the water's surface to snap at potential food.">
+                        <p>Mika is our thrid and final alligator in our zoo. She loves cuddling with children.</p>
+                        <a href="https://www.atshq.org/what-do-alligators-eat/">Want to know what Alligators like to eat?</a>
                     </li>
                 </ol>
 </body>
